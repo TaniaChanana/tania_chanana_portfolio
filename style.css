@@ -302,6 +302,9 @@ footer p:nth-child(2){
 	bottom: 35px;
 	font-size: 14px; 
 }
+.coding-image-leetcode{
+	padding-top: 50px;
+}
 #skills {
 	height: auto;
 	width: 100%;
@@ -309,7 +312,12 @@ footer p:nth-child(2){
 	text-align: left;
 	padding-bottom: 2rem;
 }
-
+#coding{
+	height: auto;
+	width: 100%;
+	background-color: #191919;
+	padding-bottom: 2rem;
+}
 .imgStyle {
     height: 50px;
     width: 50px;
