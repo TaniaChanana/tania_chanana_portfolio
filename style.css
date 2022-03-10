@@ -167,16 +167,25 @@ button:hover{
 }
 .title h2{
 	color: white;
-	font-size: 75px;
+	 font-size: 55px;
 	width: 1130px;
-	margin: 30px auto;
 	text-align: center;
+	margin-top: auto;
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .box{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 400px;
+}
+.box-images{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 330px;
 }
 .card{
 	height: 400px;
@@ -302,9 +311,13 @@ footer p:nth-child(2){
 	bottom: 35px;
 	font-size: 14px; 
 }
-.coding-image-leetcode{
-	padding-top: 50px;
+.coding-images{
+	border-radius: 25px;
+	transition: transform .2s;
 }
+.coding-images:hover {
+	transform: scale(1.1); 
+  }
 #skills {
 	height: auto;
 	width: 100%;
