@@ -557,7 +557,7 @@ section .title::after{
 
 /* teams section styling */
 .coding .title::after{
-    content: "my programming progress";
+    content: "my programming";
 }
 .teams .title::after{
     content: "my achievements";
